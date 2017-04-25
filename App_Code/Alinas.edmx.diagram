@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="938c02a0378f4ac2a88a9ab1a3002ff9" Name="Diagram1">
+        <EntityTypeShape EntityType="AlinasModel.Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlinasModel.Customer" Width="1.5" PointX="4.875" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlinasModel.Product" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlinasModel.Order" Width="1.5" PointX="4.75" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="AlinasModel.ProductOrder" />
+        <AssociationConnector Association="AlinasModel.CategoryProduct" />
+        <AssociationConnector Association="AlinasModel.CustomerOrder" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
